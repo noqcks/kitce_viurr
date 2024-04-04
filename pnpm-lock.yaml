@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   axios:
     specifier: ^0.18.0
@@ -17,8 +21,8 @@ dependencies:
     specifier: ^4.1.0
     version: 4.3.0
   filesize:
-    specifier: ^6.1.0
-    version: 6.4.0
+    specifier: ^10.1.1
+    version: 10.1.1
   jsdom:
     specifier: ^21.1.1
     version: 21.1.2
@@ -1011,9 +1015,9 @@ packages:
       trim-repeated: 1.0.0
     dev: false
 
-  /filesize@6.4.0:
-    resolution: {integrity: sha512-mjFIpOHC4jbfcTfoh4rkWpI31mF7viw9ikj/JyLoKzqlwG/YsefKfvYlYhdYdg/9mtK2z1AzgN/0LvVQ3zdlSQ==}
-    engines: {node: '>= 0.4.0'}
+  /filesize@10.1.1:
+    resolution: {integrity: sha512-L0cdwZrKlwZQkMSFnCflJ6J2Y+5egO/p3vgRSDQGxQt++QbUZe5gMbRO6kg6gzwQDPvq2Fk9AmoxUNfZ5gdqaQ==}
+    engines: {node: '>= 10.4.0'}
     dev: false
 
   /fill-range@7.0.1:

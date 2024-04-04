@@ -1,7 +1,7 @@
 import { spawn } from 'child_process';
 import debugFactory from 'debug';
 import EventEmitter from 'events';
-import filesize from 'filesize';
+import { filesize } from 'filesize';
 import config from '../config/config';
 import { Quality, SubtitleLanguageCode, type IEpisode, type ISubtitle, type QualityOption } from '../types/types';
 import { getSignature } from './common';
