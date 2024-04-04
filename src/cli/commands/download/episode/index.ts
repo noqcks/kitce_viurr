@@ -12,5 +12,6 @@ export const builder = (yargs: Argv): Argv => (
     .command(cover)
     .command(subtitle)
     .command(video)
+    .demandOption(['productId'], 'productId is required')
     .demandCommand(1, 'Specify --help to see available commands')
 );
