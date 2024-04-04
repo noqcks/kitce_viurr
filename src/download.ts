@@ -1,6 +1,6 @@
 import axios from 'axios';
 import debugFactory from 'debug';
-import filenamify from 'filenamify';
+import filenamify, { filenamifyPath } from 'filenamify';
 import fs from 'fs/promises';
 import mkdirp from 'mkdirp';
 import path from 'path';
@@ -29,7 +29,7 @@ export const video = async (productId: string, quality: QualityOption = '1080p')
     throw new Error(`Quality "${quality}" is not available in ${baseFilename}`);
   }
   debug('video:', url);
-  const filename = filenamify.path(`${baseFilename}.mkv`);
+  const filename = filenamifyPath(`${baseFilename}.mkv`);
   const filepath = path.resolve(process.cwd(), filename);
   if (await exists(filepath)) {
     throw new Error(`${filepath} already exists`);

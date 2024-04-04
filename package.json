@@ -32,7 +32,7 @@
     "axios-extensions": "^3.0.3",
     "debug": "^4.1.1",
     "del-cli": "^5.0.0",
-    "filenamify": "^4.1.0",
+    "filenamify": "^6.0.0",
     "filesize": "^6.1.0",
     "jsdom": "^21.1.1",
     "mime": "^2.3.1",
