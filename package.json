@@ -28,7 +28,7 @@
     "url": "https://github.com/kitce/viurr"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^1.6.8",
     "axios-extensions": "^3.0.3",
     "debug": "^4.1.1",
     "del-cli": "^5.0.0",
