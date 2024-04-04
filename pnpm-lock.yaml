@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   axios:
     specifier: ^0.18.0
@@ -23,8 +27,8 @@ dependencies:
     specifier: ^21.1.1
     version: 21.1.2
   mime:
-    specifier: ^2.3.1
-    version: 2.6.0
+    specifier: ^4.0.1
+    version: 4.0.1
   mkdirp:
     specifier: ^1.0.4
     version: 1.0.4
@@ -55,8 +59,8 @@ devDependencies:
     specifier: ^21.1.1
     version: 21.1.1
   '@types/mime':
-    specifier: ^2.0.0
-    version: 2.0.3
+    specifier: ^3.0.4
+    version: 3.0.4
   '@types/mkdirp':
     specifier: ^1.0.1
     version: 1.0.2
@@ -218,8 +222,8 @@ packages:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
     dev: true
 
-  /@types/mime@2.0.3:
-    resolution: {integrity: sha512-Jus9s4CDbqwocc5pOAnh8ShfrnMcPHuJYzVcSUU7lrh8Ni5HuIqX3oilL86p3dlTrk0LzHRCgA/GQ7uNCw6l2Q==}
+  /@types/mime@3.0.4:
+    resolution: {integrity: sha512-iJt33IQnVRkqeqC7PzBHPTC6fDlRNRW8vjrgqtScAhrmMwe8c4Eo7+fUGTa+XdWrpEgpyKWMYmi2dIwMAYRzPw==}
     dev: true
 
   /@types/minimist@1.2.2:
@@ -1587,9 +1591,9 @@ packages:
       mime-db: 1.52.0
     dev: false
 
-  /mime@2.6.0:
-    resolution: {integrity: sha512-USPkMeET31rOMiarsBNIHZKLGgvKc/LrjofAnBlOttf5ajRvqiRA8QsenbcooctK6d6Ts6aqZXBA+XbkKthiQg==}
-    engines: {node: '>=4.0.0'}
+  /mime@4.0.1:
+    resolution: {integrity: sha512-5lZ5tyrIfliMXzFtkYyekWbtRXObT9OWa8IwQ5uxTBDHucNNwniRqo0yInflj+iYi5CBa6qxadGzGarDfuEOxA==}
+    engines: {node: '>=16'}
     hasBin: true
     dev: false
 
