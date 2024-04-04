@@ -11,7 +11,7 @@ export const builder = (yargs: Argv): Argv => (
   yargs
     .command(cover)
     .command(subtitle)
-    .command(video)
+    .command(video, 'Download video')
     .demandOption(['productId'], 'productId is required')
     .demandCommand(1, 'Specify --help to see available commands')
 );
