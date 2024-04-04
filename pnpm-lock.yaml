@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   axios:
     specifier: ^0.18.0
@@ -26,8 +30,8 @@ dependencies:
     specifier: ^2.3.1
     version: 2.6.0
   mkdirp:
-    specifier: ^1.0.4
-    version: 1.0.4
+    specifier: ^3.0.1
+    version: 3.0.1
   ms:
     specifier: ^2.1.3
     version: 2.1.3
@@ -58,7 +62,7 @@ devDependencies:
     specifier: ^2.0.0
     version: 2.0.3
   '@types/mkdirp':
-    specifier: ^1.0.1
+    specifier: ^1.0.2
     version: 1.0.2
   '@types/ms':
     specifier: ^0.7.31
@@ -1621,8 +1625,8 @@ packages:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
     dev: false
 
-  /mkdirp@1.0.4:
-    resolution: {integrity: sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==}
+  /mkdirp@3.0.1:
+    resolution: {integrity: sha512-+NsyUUAZDmo6YVHzL/stxSu3t9YS1iljliy3BSDrXJ/dkn1KYdmtZODGGjLcc9XLgVVpH4KshHB8XmZgMhaBXg==}
     engines: {node: '>=10'}
     hasBin: true
     dev: false
