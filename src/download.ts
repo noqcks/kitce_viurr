@@ -63,7 +63,7 @@ export const cover = async (productId: string): Promise<[ISeries, IEpisode, stri
   debug('cover image url', coverImageURL);
   const [buffer, , extension] = await fetchImageWithMetadata(coverImageURL);
   const baseFilename = getBaseFilename(episode);
-  const filename = filenamify.path(`${baseFilename}.${extension}`);
+  const filename = filenamify(`${baseFilename}.${extension}`);
   const filepath = path.resolve(process.cwd(), filename);
   if (await exists(filepath)) {
     throw new Error(`${filepath} already exists`);
