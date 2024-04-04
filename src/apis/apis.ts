@@ -15,7 +15,7 @@ const api = axios.create({
     'Origin': 'https://www.viu.com',
     'Accept-Encoding': 'gzip, deflate, br'
   },
-  adapter: throttleAdapterEnhancer(cacheAdapterEnhancer(axios.defaults.adapter as AxiosAdapter, true), { threshold: 2 })
+  adapter: throttleAdapterEnhancer(cacheAdapterEnhancer(axios.defaults.adapter, true), { threshold: 2 })
 });
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
