@@ -70,7 +70,7 @@ export const cover = async (productId: string): Promise<[ISeries, IEpisode, stri
   }
   debug('cover image file:', filepath);
   const directory = path.dirname(filepath);
-  await mkdirp(directory, { recursive: true });
+  await mkdirp(directory);
   await fs.writeFile(filepath, buffer);
   return [series, episode, filepath];
 };
