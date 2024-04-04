@@ -106,7 +106,7 @@ export const subtitle = async (productId: string, languageId: LanguageFlagId, te
   debug('subtitle file:', filepath);
   const directory = path.dirname(filepath);
   debug('subtitle directory:', directory);
-  await mkdirp(directory);
+  await mkdirp(directory, { recursive: true });
   await fs.writeFile(filepath, data);
   return [series, episode, filepath];
 };
